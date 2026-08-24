@@ -1,5 +1,5 @@
 import 'package:flutter/material.dart';
-import 'login.dart';
+import 'dashboard.dart';
 
 void main() {
   runApp(const MyApp());
@@ -14,7 +14,7 @@ class MyApp extends StatelessWidget {
       debugShowCheckedModeBanner: false,
       title: 'Smart IoT Rainfall Monitoring',
       theme: ThemeData(primarySwatch: Colors.blue),
-      home: const LoginPage(),
+      home: const DashboardPage(),
     );
   }
 }
